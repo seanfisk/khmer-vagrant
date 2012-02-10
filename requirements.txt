@@ -1,0 +1,8 @@
+# screed - read-only sequence database
+-e git://github.com/ctb/screed.git#egg=screed
+
+# testing
+nose
+
+# building docs
+Sphinx
