@@ -1,0 +1,7 @@
+Install g++ with chef
+
+Add this as a script:
+
+    valgrind --tool=callgrind --python-mode=yes --compress-strings=no ./my_application
+
+Check that valgrind with callgrind python is installed successfully using chef. Had to manually install it.
